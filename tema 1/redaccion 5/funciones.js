@@ -145,7 +145,7 @@ function creatb(anc){
 //ejercicio 4.14
 //creatbv2wm(4,100,100);
 //ejercicio 4.15/4.16
-//adivinav1();
+adivinav1();
 //ejercicio 4.17
 //tbmulti();
 //ejercicio 4.18
