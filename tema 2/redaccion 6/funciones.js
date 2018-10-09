@@ -1,12 +1,7 @@
-function numimg(){
-	return document.getElementsByTagName("img").length;
+function lanzamiento(){
+	var x=Math.floor(Math.random()*6+1);
+	return "el resultado ha sido "+ x;
 }
-function imgid(){
-	return document.getElementsByTagName("img")[0].id;
-}
-function numEnl(){
-	return document.getElementsByTagName("a").length;
-}
-function chngtitle(ttl){
-	document.head.title.innerHTML=ttl;
-}
+//ejercicio 2
+var btn=document.body.getElementById("btn");
+btn.addEventListener("Click",lanzamiento);
