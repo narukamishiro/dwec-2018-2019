@@ -52,3 +52,8 @@ function draw2(e){
 var list=document.getElementsByTagName("<tr>");
 list.forEach(function(item){item.onmousemove=function(event){draw1(event)}});
 */
+//ejercicio 5
+/*
+var list=document.getElementsByTagName("<tr>");
+list.forEach(function(item){item.onmousemove=function(event){draw1(event)}});
+*/
